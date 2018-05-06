@@ -1,3 +1,18 @@
+LED backpack 8x16 matrices cryptocurrency ticker
+================================================
+
+This Python library is modified to display prices of various cryptocurrency on a LED 8x16 matrix.  
+For installation, see the instruction of original Readme.  
+To run crypto ticker:  
+
+```
+cd Adafruit_Python_LED_Backpack/example
+python crypto_ticker.py
+```
+  
+  
+  
+
 Adafruit Python LED Backpack
 ============================
 
