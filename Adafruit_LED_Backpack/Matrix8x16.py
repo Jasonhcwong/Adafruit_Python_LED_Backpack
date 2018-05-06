@@ -136,7 +136,7 @@ class Matrix8x16(HT16K33.HT16K33):
             for y in range(16):
                 section = image.crop((0, 0, 8, y))
                 display_section = self.create_blank_image()
-                display_section.paste(section, (0, 8 - y, 8, 16))
+                display_section.paste(section, (0, 16 - y, 8, 16))
                 image_list.append(display_section)
 
         #Scroll across the input image.
@@ -151,7 +151,7 @@ class Matrix8x16(HT16K33.HT16K33):
             for y in range(height - 15, height + 1):
                 section = image.crop((0, y, 8, height))
                 display_section = self.create_blank_image()
-                display_section.paste(section, (0, 0, 8, 7 - (y - (height - 15))))
+                display_section.paste(section, (0, 0, 8, 15 - (y - (height - 15))))
                 image_list.append(display_section)
 
         #Return the list of images created
