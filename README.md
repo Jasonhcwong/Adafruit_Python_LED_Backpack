@@ -10,8 +10,9 @@ cd Adafruit_Python_LED_Backpack/example
 python crypto_ticker.py
 ```
   
-  
-  
+
+Example output: see file [crypto_price_ticker.MOV](crypto_price_ticker.MOV) in the repo
+
 
 Adafruit Python LED Backpack
 ============================
